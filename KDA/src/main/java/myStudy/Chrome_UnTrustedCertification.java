@@ -28,6 +28,7 @@ public class Chrome_UnTrustedCertification
       	                            .usingAnyFreePort()
       	                            .build();
       	    ChromeOptions options = new ChromeOptions();
+            System.out.println("");
       	    options.merge(capabilities);    
       	    WebDriver driver = new ChromeDriver(service, options);
       	    driver.get("https://www.facebook.com/");
